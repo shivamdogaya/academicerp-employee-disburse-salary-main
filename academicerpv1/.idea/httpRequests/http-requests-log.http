@@ -1,0 +1,18 @@
+POST http://localhost:8080/academicerpv1_war_exploded/api/employee/getEmployees
+
+<> 2022-11-30T225541.500.html
+
+###
+
+POST http://localhost:8080/academicerpv1_war_exploded/employee/getEmployees
+
+<> 2022-11-30T225529.404.html
+
+###
+
+POST http://localhost:8080/employee/getEmployees
+
+<> 2022-11-30T225428.404.html
+
+###
+

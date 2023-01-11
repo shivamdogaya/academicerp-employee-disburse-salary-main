@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Academic ERP</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/form-validation.css" rel="stylesheet">
+</head>
+
+<body class="bg-light text-light" style="background-image: url('assets/img/bg_image.png');background-size: cover;">
+<div class="container">
+    <div class="py-5 text-lg-left">
+        <h2>Modify Salary by id</h2>
+    </div>
+
+    <div class="col-md-10 order-md-1">
+        <form class="needs-validation-courses" id="modifySalary" novalidate>
+            <div class="mb-3">
+                <label for="id">Transaction id</label>
+                <input class="form-control" id="id" placeholder="Enter Transaction id" required type="number" value="">
+                <div class="invalid-feedback">
+                    Valid Transaction id is required.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="amount">Amount</label>
+                <input class="form-control" id="amount" placeholder="Enter amount" required type="number">
+                <div class="invalid-feedback">
+                    Please enter proper amount.
+                </div>
+            </div>
+
+            <hr class="mb-4">
+            <button class="btn btn-success btn-lg" type="submit">Modify</button>
+            <div class="alert alert-danger" role="alert" id="login-alert" style="display: none; margin-top: 20px">
+                Invalid Details!!
+            </div>
+            <div class="alert alert-success" role="alert" id="login-alert-success" style="display: none; margin-top: 20px">
+                Salary amount updated successfully!!
+            </div>
+            <br></br>
+            <a href="login.html" class="btn btn-success btn-lg" role="button">Goto Login page</a>
+
+            <br></br>
+            <a href="accountantDashboard.html" class="btn btn-success btn-lg" role="button">Goto Accountant Dashboard page</a>
+        </form>
+    </div>
+</div>
+
+<footer class="my-5 pt-5 text-muted text-center text-small">
+</footer>
+</body>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/modify-salary.js"></script>
+</html>
